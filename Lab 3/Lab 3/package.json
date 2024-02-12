@@ -1,0 +1,21 @@
+{
+  "name": "cs-554-lab-3",
+  "version": "1.0.0",
+  "description": "Lab 3 Assignment",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node ./tasks/seed.js"
+  },
+  "author": "Sri_Naga_Hansi_Mamidi_20012906",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "graphql": "^16.8.1",
+    "mongodb": "^6.1.0",
+    "node-redis": "^0.1.7",
+    "redis": "^4.6.10",
+    "uuid": "^9.0.1"
+  }
+}
